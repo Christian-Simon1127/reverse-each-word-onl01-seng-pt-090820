@@ -1,9 +1,8 @@
 def reverse_each_word(string)
   news = string.split
-  new_string = ""
   news.collect { |item|
-    new_string += item.reverse
+    puts item.reverse
+    item.reverse
   }
-  puts news
-  new_string
+  #news.join(" ")
 end
