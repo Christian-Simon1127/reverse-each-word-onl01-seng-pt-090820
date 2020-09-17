@@ -4,5 +4,6 @@ def reverse_each_word(string)
     puts item.reverse
     item.reverse
   }
+  puts news
   #news.join(" ")
 end
