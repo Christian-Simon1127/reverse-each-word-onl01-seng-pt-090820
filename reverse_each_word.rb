@@ -3,5 +3,5 @@ def reverse_each_word(string)
   news.collect { |item|
     item.reverse
   }
-  #news.join(" ")
+  news.join(" ")
 end
