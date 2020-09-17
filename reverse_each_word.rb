@@ -4,5 +4,6 @@ def reverse_each_word(string)
   news.collect { |item|
     new_string += item.reverse
   }
+  puts news
   new_string
 end
